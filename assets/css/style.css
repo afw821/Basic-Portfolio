@@ -40,6 +40,16 @@ body{
     position:static;
     z-index:2;  
 }
+#full2{
+    background-color: #ffffff;
+    height:700px;
+    width:960px;
+    border:1px solid gray;
+    margin: auto;  
+    position:static;
+    z-index:2;
+
+}
 #contact-field{
     background-color: #ffffff;
     height:500px;
@@ -49,7 +59,7 @@ body{
     position:static;
     z-index:2;
 }
-#about,#contacthead{
+#about,#contacthead,#portfolio{
     background-color: #ffffff;
     color:#4aaaa5;
     padding-left: 10px;
@@ -59,13 +69,26 @@ body{
 
 }
 #img{
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
     float:left;
+    width:20%;
+    height:15%; 
+    z-index:2;
+}
+#img2{
+    height:240px;
     width:200px;
-    height:200px;
+    float:center;
+    margin-left:100px;
+    margin-top:20px;
+}
 
-} 
+ 
+.images{
+    width:900px;
+    margin: 0 auto;
+}
 #p1{
     float:right;
     width:650px;
