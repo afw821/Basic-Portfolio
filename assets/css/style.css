@@ -1,5 +1,6 @@
 body{
     background-color: beige;
+    margin: 0 auto;
 }
 .header{
     width:100%;
@@ -19,28 +20,88 @@ body{
     width:20%;
     color:white;
     text-align: center;
+
 }
 .list{
     float:right;
     position:absolute;
     right:100px;
     top:50px;
+    width:300px;
+    margin-right:300px;
 }
-.full{
-    background-color: #ffffff
+#full{
+    background-color: #ffffff;
     height:500px;
-    width:80%;
+    width:960px;
     border:1px solid gray;
-    margin: 10px 200px 100px 200px;
-    
+    margin: 0 auto; 
+    position:static;
+    z-index:2;  
 }
-#about{
+#contact-field{
+    background-color: #ffffff;
+    height:500px;
+    width:960px;
+    border:1px solid gray;
+    margin: 0 auto; 
+    position:static;
+    z-index:2;
+}
+#about,#contacthead{
     background-color: #ffffff;
     color:#4aaaa5;
     padding-left: 10px;
     border-bottom: 1px solid gray;
+    margin: 5px auto;
+    width:900px;
+
 }
 #img{
     margin-left: 10px;
     margin-top: 10px;
+    float:left;
+    width:200px;
+    height:200px;
+
+} 
+#p1{
+    float:right;
+    width:650px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+#p2{
+    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#contact-form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color:#777777;
+    float:left;
+}
+.container{
+    width:800px;
+    margin:0 auto;
+   
+}
+#clearfix{
+    width:900px;
+    margin: 0 auto;
+
+}
+#clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+a{
+    color:darkgray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-decoration: none;
 }
