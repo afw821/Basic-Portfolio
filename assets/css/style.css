@@ -74,17 +74,18 @@ body{
     float:left;
     width:200px;
     height:240px; 
-    z-index:2;
+
+    
 }
 
 #img2{
     height:240px;
     width:200px;
-    float:center;
+    float:right;
     margin-left:100px;
     margin-top:20px;
 }
-#img3{
+/* #img3{
     height:240px;
     width:200px;
     float:right;
@@ -103,37 +104,41 @@ body{
     width:200px;
     float:right;
     margin-right:150px;
-    margin-top:30px;
+    margin-top:30px; 
+} */
+.image{
+    height:230px;
+    width: 180px;
+    
+    position: relative
 }
- 
-.images{
+.message{
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 198px;
+    padding-right: 51px;
+    padding-left: 53px;
+    margin-right: 5px;
+}
+/* .images{
     width:900px;
     height:40%;
     margin: 0 auto;  
     
 }
-/* .images2{
-    float:left;
-    margin: 20px 50px 20px 50px;
-    width:150px;
-    position:relative;
-} */
-
 
 .images-bottom{
     width:900px;
     height:40%;
     margin:0 auto;  
     
-}
-
-/* .images::after{
-
-    content: "";
-    clear: both;
-    display: table;
-
 } */
+
 #p1{
     float:right;
     width:650px;
