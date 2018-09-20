@@ -40,7 +40,7 @@ body{
     position:static;
     z-index:2;  
 }
-#full2{
+#portfolio-box{
     background-color: #ffffff;
     height:700px;
     width:960px;
@@ -68,76 +68,136 @@ body{
     width:900px;
 
 }
-#img{
+#img1-container{
     margin-left: 30px;
     margin-top: 20px;
     float:left;
     width:200px;
-    height:240px; 
-
-    
+    height:240px;     
 }
-
-#img2{
-    height:240px;
-    width:200px;
+#img2-container{
+    margin-right:30px;
+    margin-left: 30px;
+    margin-top: 20px;
     float:right;
-    margin-left:100px;
-    margin-top:20px;
-}
-/* #img3{
-    height:240px;
     width:200px;
+    height:240px;
+}
+#img3-container{
+    margin-right:120px;
+    margin-left: 30px;
+    margin-top: 20px;
     float:right;
-    margin-right:40px;
-    margin-top:20px;
-}
-#img4{
-    height:240px;
     width:200px;
+    height:240px;
+}
+#img4-container{
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    margin-left: 35px;
     float:left;
-    margin-left:150px;
-    margin-top:30px;
-}
-#img5{
-    height:240px;
     width:200px;
+    height:240px; 
+}
+#img5-container{
+    margin-right: 30px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    margin-left: 35px;
     float:right;
-    margin-right:150px;
-    margin-top:30px; 
-} */
+    width:200px;
+    height:240px;
+}
 .image{
+    margin-left:10px;
     height:230px;
     width: 180px;
     
     position: relative
 }
 .message{
+    
     background-color: #4aaaa5;
     color: white;
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    top:210px;
+    z-index:1;
     margin-bottom: 2px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 198px;
     padding-right: 51px;
     padding-left: 53px;
     margin-right: 5px;
-}
-/* .images{
-    width:900px;
-    height:40%;
-    margin: 0 auto;  
+    margin-left:10px;
     
 }
-
-.images-bottom{
-    width:900px;
-    height:40%;
-    margin:0 auto;  
+.message2{
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    top:210px;
+    z-index: 1;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 198px;
+    padding-right: 66px;
+    padding-left: 75px;
+    margin-right: 5px;
+    margin-left:10px;
+    text-align: center;
     
-} */
+}
+.message3{
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    top:210px;
+    z-index: 1;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 198px;
+    padding-right: 29px;
+    padding-left: 26px;
+    margin-right: 5px;
+    margin-left:10px;
+    text-align: center;
+}
+.message4{
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    top:210px;
+    z-index: 1;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 198px;
+    margin-right: 0px;
+    padding-right: 67px;
+    padding-left: 61px;
+    margin-left:10px;
+    text-align: center;
+}
+.message5{
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    top:210px;
+    z-index: 1;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 198px;
+    padding-left: 63px;
+    padding-right: 61px;
+    margin-right: 15px;
+    margin-left: 14px;
+    text-align: center;
+}
 
 #p1{
     float:right;
@@ -171,11 +231,6 @@ input[type=submit] {
     margin: 0 auto;
 
 }
-/* #clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
- } */
 
 .list a{
     color:darkgray;
@@ -194,9 +249,12 @@ a{
     background-color:#666666;
     border-top: 5px solid #4aaaa5;
     margin-top: 200px;
-    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 10px 10px 10px 10px;
+    position:absolute;
+}
+.footer-text{
+    margin-top:37px;
 }
